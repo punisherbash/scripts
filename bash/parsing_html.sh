@@ -3,8 +3,6 @@
 #			punisherbash  #
 #######################################
 
-
-
 if [ "$1" == ""];then
 
 	echo "Script Parsing HTML"

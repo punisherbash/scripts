@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+#######################################
+#			punisherbash  #
+#######################################
+
 print("Interacting with Services")
 
 import socket
@@ -12,11 +16,11 @@ banner = mysocket.recv(1024)
 print(banner)
 
 print("Send User")
-mysocket.send('USER ricardo\r\n')
+mysocket.send('USER usuario\r\n')
 banner = mysocket.recv(1024)
 print(banner)
 
 print('Send Password')
-mysocket.send('PASS ricardo\r\n')
+mysocket.send('PASS 123456\r\n')
 banner = mysocket.recv(1024)
 print(banner)
